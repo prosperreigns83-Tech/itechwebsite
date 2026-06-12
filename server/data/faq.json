@@ -1,0 +1,37 @@
+[
+  {
+    "question": "What is iTech Store?",
+    "answer": "iTech Store is a customer-focused e-commerce platform offering quality technology products, fast support, and easy online shopping. We help customers find gadgets, accessories, and smart devices with a secure checkout experience.",
+    "keywords": ["itech store", "about itech", "what is itech", "company", "about company", "store"]
+  },
+  {
+    "question": "How can I contact support?",
+    "answer": "You can contact our support team by email at support@itechstore.com or via WhatsApp using the chat button in the app. We respond to customer inquiries as quickly as possible.",
+    "keywords": ["support", "contact", "email", "whatsapp", "customer service", "help"]
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We support secure payments through Paystack, including card payments and other local payment options. Payment options are shown at checkout and secured by our payment gateway.",
+    "keywords": ["payment", "pay", "checkout", "card", "paystack", "payment methods"]
+  },
+  {
+    "question": "What is your return and refund policy?",
+    "answer": "We offer returns and refunds for eligible products within the return window. If your item is damaged, defective, or not as described, contact support immediately and we will help you arrange a return or exchange.",
+    "keywords": ["return", "refund", "exchange", "warranty", "damaged", "defective"]
+  },
+  {
+    "question": "How long does shipping take?",
+    "answer": "Shipping times depend on your location, but most orders are processed within 24-48 hours. You will receive tracking details after your order ships so you can follow delivery progress.",
+    "keywords": ["shipping", "delivery", "track", "tracking", "courier", "arrival"]
+  },
+  {
+    "question": "Who founded iTech Store?",
+    "answer": "iTech Store was founded by Prosper Emonis, a technology enthusiast dedicated to delivering modern digital shopping experiences and excellent customer service.",
+    "keywords": ["founder", "founder", "prosper emonis", "owner", "who founded", "who is the owner"]
+  },
+  {
+    "question": "How do I place an order?",
+    "answer": "To place an order, browse products, add items to your cart, and complete checkout with your payment information. If you need help during checkout, ask me and I’ll guide you through the steps.",
+    "keywords": ["order", "purchase", "buy", "checkout", "place order"]
+  }
+]

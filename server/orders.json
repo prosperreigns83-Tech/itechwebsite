@@ -1,0 +1,619 @@
+[
+  {
+    "orderId": "ITEC-2026-343761",
+    "referenceId": "74e2b8d9-98ce-422e-b087-b724ea8abed2",
+    "status": "created",
+    "data": {
+      "customerName": "love",
+      "email": "prosperreigns@gmail.com",
+      "phone": "+2348000000000",
+      "address": "Demo Address",
+      "deliveryMethod": "Pickup",
+      "items": [
+        {
+          "name": "Sample Product",
+          "specs": "Demo Specs",
+          "qty": 1,
+          "price": 1000,
+          "total": 1000
+        }
+      ],
+      "subtotal": 1000,
+      "deliveryFee": 200,
+      "discount": 0,
+      "tax": 0,
+      "total": 1200
+    },
+    "timeline": [
+      {
+        "step": "Order Created",
+        "date": "2026-05-21T20:20:35.953Z",
+        "status": "created"
+      }
+    ],
+    "createdAt": "2026-05-21T20:20:35.959Z"
+  },
+  {
+    "orderId": "ITEC-2026-351196",
+    "referenceId": "cded9ee2-3076-4de4-9f8f-fda2caf2506d",
+    "status": "created",
+    "data": {
+      "customerName": "love",
+      "email": "prosperreigns@gmail.com",
+      "phone": "+2348000000000",
+      "address": "Demo Address",
+      "deliveryMethod": "Pickup",
+      "items": [
+        {
+          "name": "Sample Product",
+          "specs": "Demo Specs",
+          "qty": 1,
+          "price": 1000,
+          "total": 1000
+        }
+      ],
+      "subtotal": 1000,
+      "deliveryFee": 200,
+      "discount": 0,
+      "tax": 0,
+      "total": 1200
+    },
+    "timeline": [
+      {
+        "step": "Order Created",
+        "date": "2026-05-22T16:02:46.952Z",
+        "status": "created"
+      }
+    ],
+    "createdAt": "2026-05-22T16:02:46.954Z"
+  },
+  {
+    "orderId": "TEST-OFFLINE-001",
+    "referenceId": "75ebbc3f-52ae-4cf4-908c-d66c78938a9a",
+    "status": "pending",
+    "data": {
+      "email": "test@example.com",
+      "customerName": "Test User",
+      "items": [
+        {
+          "id": 1,
+          "title": "Product",
+          "price": 500,
+          "qty": 1
+        }
+      ],
+      "totalAmount": 500,
+      "paymentMethod": "Cash on Delivery",
+      "address": "123 Test Street",
+      "phone": "+234123456789"
+    },
+    "timeline": [
+      {
+        "step": "Offline Order Created",
+        "date": "2026-05-24T10:32:41.913Z",
+        "status": "pending"
+      },
+      {
+        "step": "Payment Method",
+        "date": "2026-05-24T10:32:41.916Z",
+        "status": "Cash on Delivery"
+      }
+    ],
+    "createdAt": "2026-05-24T10:32:41.921Z"
+  },
+  {
+    "orderId": "TEST-OFFLINE-001",
+    "referenceId": "0805331d-9420-4cef-b5fb-ea2cdac5ebfc",
+    "status": "pending",
+    "data": {
+      "email": "test@example.com",
+      "customerName": "Test User",
+      "items": [
+        {
+          "price": 500,
+          "title": "Product",
+          "id": 1,
+          "qty": 1
+        }
+      ],
+      "totalAmount": 500,
+      "paymentMethod": "Cash on Delivery",
+      "address": "123 Test Street LongEnough",
+      "phone": "+234123456789"
+    },
+    "timeline": [
+      {
+        "step": "Offline Order Created",
+        "date": "2026-05-24T10:33:19.092Z",
+        "status": "pending"
+      },
+      {
+        "step": "Payment Method",
+        "date": "2026-05-24T10:33:19.092Z",
+        "status": "Cash on Delivery"
+      }
+    ],
+    "createdAt": "2026-05-24T10:33:19.101Z"
+  },
+  {
+    "orderId": "TEST-002",
+    "referenceId": "9715f075-637d-4da7-a29a-2875308d8bc8",
+    "status": "pending",
+    "data": {
+      "email": "test@example.com",
+      "customerName": "Test",
+      "items": [],
+      "totalAmount": 100,
+      "paymentMethod": "cash",
+      "address": "123",
+      "phone": "123"
+    },
+    "timeline": [
+      {
+        "step": "Offline Order Created",
+        "date": "2026-05-24T10:35:08.599Z",
+        "status": "pending"
+      },
+      {
+        "step": "Payment Method",
+        "date": "2026-05-24T10:35:08.599Z",
+        "status": "cash"
+      }
+    ],
+    "createdAt": "2026-05-24T10:35:08.599Z"
+  },
+  {
+    "orderId": "ITEC-2026-826207",
+    "referenceId": "MOCK-ITEC-2026-826207-1779772177016",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "promise",
+      "items": [
+        {
+          "id": 20,
+          "title": "MacBook Pro 16",
+          "price": "2499.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 2499.99,
+      "paymentReference": "MOCK-ITEC-2026-826207-1779772177016",
+      "address": "Home\nLagos, Lagos\nokoko",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-26T05:09:37.017Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-26T05:09:37.081Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-26T05:09:37.021Z"
+  },
+  {
+    "orderId": "ITEC-2026-495004",
+    "referenceId": "MOCK-ITEC-2026-495004-1779772752717",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "promise",
+      "items": [
+        {
+          "id": 24,
+          "title": "Sony WH-1000XM5",
+          "price": "399.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 399.99,
+      "paymentReference": "MOCK-ITEC-2026-495004-1779772752717",
+      "address": "Home\nLagos, Lagos\nokoko",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-26T05:19:12.719Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-26T05:19:12.782Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-26T05:19:12.722Z"
+  },
+  {
+    "orderId": "ITEC-2026-515098",
+    "referenceId": "MOCK-ITEC-2026-515098-1779772866150",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "promise",
+      "items": [
+        {
+          "id": 24,
+          "title": "Sony WH-1000XM5",
+          "price": "399.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 399.99,
+      "paymentReference": "MOCK-ITEC-2026-515098-1779772866150",
+      "address": "Home\nLagos, Lagos\nokoko",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-26T05:21:06.152Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-26T05:21:06.201Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-26T05:21:06.154Z"
+  },
+  {
+    "orderId": "ITEC-2026-663360",
+    "referenceId": "MOCK-ITEC-2026-663360-1779772923894",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "promise",
+      "items": [
+        {
+          "id": 21,
+          "title": "AirPods Pro Max",
+          "price": "549.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 549.99,
+      "paymentReference": "MOCK-ITEC-2026-663360-1779772923894",
+      "address": "Home\nLagos, Lagos\nokoko",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-26T05:22:03.896Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-26T05:22:03.970Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-26T05:22:03.898Z"
+  },
+  {
+    "orderId": "ITEC-2026-644449",
+    "referenceId": "MOCK-ITEC-2026-644449-1779866782119",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "prosper",
+      "items": [
+        {
+          "id": 20,
+          "title": "MacBook Pro 16",
+          "price": "2499.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 2499.99,
+      "paymentReference": "MOCK-ITEC-2026-644449-1779866782119",
+      "address": "home\nLagos, Lagos\nokokomiko lagos",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-27T07:26:22.121Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-27T07:26:22.181Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-27T07:26:22.127Z"
+  },
+  {
+    "orderId": "ITEC-2026-687238",
+    "referenceId": "MOCK-ITEC-2026-687238-1779866895447",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "prosper",
+      "items": [
+        {
+          "id": 24,
+          "title": "Sony WH-1000XM5",
+          "price": "399.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 399.99,
+      "paymentReference": "MOCK-ITEC-2026-687238-1779866895447",
+      "address": "home\nLagos, Lagos\nokokomiko lagos",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-27T07:28:15.449Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-27T07:28:15.485Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-27T07:28:15.451Z"
+  },
+  {
+    "orderId": "ITEC-2026-633835",
+    "referenceId": "MOCK-ITEC-2026-633835-1779866923177",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "prosper",
+      "items": [
+        {
+          "id": 26,
+          "title": "iPhone 15 Pro",
+          "price": "999.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 999.99,
+      "paymentReference": "MOCK-ITEC-2026-633835-1779866923177",
+      "address": "home\nLagos, Lagos\nokokomiko lagos",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-27T07:28:43.179Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-27T07:28:43.211Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-27T07:28:43.180Z"
+  },
+  {
+    "orderId": "ITEC-2026-955736",
+    "referenceId": "MOCK-ITEC-2026-955736-1779866970049",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "prosper",
+      "items": [
+        {
+          "id": 27,
+          "title": "Test",
+          "price": "100",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 100,
+      "paymentReference": "MOCK-ITEC-2026-955736-1779866970049",
+      "address": "home\nLagos, Lagos\nokokomiko lagos",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-27T07:29:30.054Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-27T07:29:30.084Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-27T07:29:30.055Z"
+  },
+  {
+    "orderId": "ITEC-2026-651249",
+    "referenceId": "MOCK-ITEC-2026-651249-1779867851332",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "prosper",
+      "items": [
+        {
+          "id": 26,
+          "title": "iPhone 15 Pro",
+          "price": "999.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 999.99,
+      "paymentReference": "MOCK-ITEC-2026-651249-1779867851332",
+      "address": "home\nLagos, Lagos\nokokomiko lagos",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-27T07:44:11.333Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-27T07:44:11.578Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-27T07:44:11.339Z"
+  },
+  {
+    "orderId": "ITEC-2026-755710",
+    "referenceId": "MOCK-ITEC-2026-755710-1779867939570",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "prosper",
+      "items": [
+        {
+          "id": 23,
+          "title": "Apple Watch Series 9",
+          "price": "399.99",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 399.99,
+      "paymentReference": "MOCK-ITEC-2026-755710-1779867939570",
+      "address": "home\nLagos, Lagos\nokokomiko lagos",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-27T07:45:39.572Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-27T07:45:39.614Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-27T07:45:39.574Z"
+  },
+  {
+    "orderId": "ITEC-2026-963018",
+    "referenceId": "MOCK-ITEC-2026-963018-1779868262921",
+    "status": "confirmed",
+    "data": {
+      "email": "imonikpepromise@gmail.com",
+      "customerName": "prosper",
+      "items": [
+        {
+          "id": 28,
+          "title": "Test",
+          "price": "100",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 100,
+      "paymentReference": "MOCK-ITEC-2026-963018-1779868262921",
+      "address": "home\nLagos, Lagos\nokokomiko lagos",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-05-27T07:51:02.925Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-05-27T07:51:03.141Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-05-27T07:51:02.940Z"
+  },
+  {
+    "orderId": "ITEC-2026-840370",
+    "referenceId": "11690ebe-9d10-4de4-ae7b-81931d463f3f",
+    "status": "created",
+    "data": {
+      "customerName": "Proser",
+      "email": "imonikpepromise@gmail.com",
+      "phone": "+2348000000000",
+      "address": "Demo Address",
+      "deliveryMethod": "Pickup",
+      "items": [
+        {
+          "name": "Sample Product",
+          "specs": "Demo Specs",
+          "qty": 1,
+          "price": 1000,
+          "total": 1000
+        }
+      ],
+      "subtotal": 1000,
+      "deliveryFee": 200,
+      "discount": 0,
+      "tax": 0,
+      "total": 1200
+    },
+    "timeline": [
+      {
+        "step": "Order Created",
+        "date": "2026-06-03T22:21:21.696Z",
+        "status": "created"
+      }
+    ],
+    "createdAt": "2026-06-03T22:21:21.708Z"
+  },
+  {
+    "orderId": "ITEC-2026-442102",
+    "referenceId": "MOCK-ITEC-2026-442102-1780676451810",
+    "status": "confirmed",
+    "data": {
+      "email": "john@gmail.com",
+      "customerName": "JOHN",
+      "items": [
+        {
+          "id": 29,
+          "title": "Your Product Name",
+          "price": "50.00",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 50,
+      "paymentReference": "MOCK-ITEC-2026-442102-1780676451810",
+      "address": "home\nLagos, Lagos\nokokomiko lagos",
+      "phone": "",
+      "paymentMode": "mock"
+    },
+    "timeline": [
+      {
+        "step": "Mock Payment Pending",
+        "date": "2026-06-05T16:20:51.814Z",
+        "status": "pending"
+      },
+      {
+        "step": "Mock Payment Confirmed",
+        "date": "2026-06-05T16:20:52.227Z",
+        "status": "confirmed"
+      }
+    ],
+    "createdAt": "2026-06-05T16:20:51.843Z"
+  }
+]

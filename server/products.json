@@ -1,0 +1,224 @@
+{
+  "local": [
+    {
+      "id": 1,
+      "category": "accessories",
+      "title": "New GPS Sports Smartwatch",
+      "price": "$1,199.00",
+      "subtitle": "2025 New GPS Sports Smartwatch T-Rex 3",
+      "image": "/images/mp1.jpg",
+      "source": "local"
+    },
+    {
+      "id": 2,
+      "category": "Phones",
+      "title": "Samsung Galaxy S24",
+      "price": "$1,199.00",
+      "subtitle": "4.8 (320)",
+      "image": "/images/p1.jpg",
+      "source": "local"
+    },
+    {
+      "id": 3,
+      "category": "accessories",
+      "title": "Power Bank 20000mAh",
+      "price": "$1,199.00",
+      "subtitle": "Portable Charger with Dual USB Output",
+      "image": "/images/f1.webp",
+      "source": "local"
+    },
+    {
+      "id": 4,
+      "category": "electronics",
+      "title": "Your Product Name",
+      "price": "$50.00",
+      "subtitle": "Short description",
+      "image": "/images/f2.webp",
+      "source": "local"
+    },
+    {
+      "id": 5,
+      "category": "accessories",
+      "title": "LED Ring Light",
+      "price": "$299.00",
+      "subtitle": "Professional Studio Lighting",
+      "image": "/images/light1.webp",
+      "source": "local"
+    },
+    {
+      "id": 6,
+      "category": "accessories",
+      "title": "LED Ring Light Pro",
+      "price": "$349.00",
+      "subtitle": "Advanced Studio Lighting with Dimmer",
+      "image": "/images/light2.webp",
+      "source": "local"
+    },
+    {
+      "id": 7,
+      "category": "electronics",
+      "title": "Portable Fan",
+      "price": "$45.00",
+      "subtitle": "Compact Cooling Device",
+      "image": "/images/fan.png",
+      "source": "local"
+    },
+    {
+      "id": 8,
+      "category": "phones",
+      "title": "Mobile Phone Accessory",
+      "price": "$25.00",
+      "subtitle": "Premium Mobile Protection",
+      "image": "/images/mp2.jpg",
+      "source": "local"
+    },
+    {
+      "id": 9,
+      "category": "phones",
+      "title": "Phone Stand",
+      "price": "$35.00",
+      "subtitle": "Adjustable Phone Mount",
+      "image": "/images/mp3.jpg",
+      "source": "local"
+    },
+    {
+      "id": 10,
+      "category": "phones",
+      "title": "Phone Case",
+      "price": "$20.00",
+      "subtitle": "Protective Durable Case",
+      "image": "/images/mp4.jpg",
+      "source": "local"
+    },
+    {
+      "id": 11,
+      "category": "accessories",
+      "title": "Screen Protector",
+      "price": "$15.00",
+      "subtitle": "Tempered Glass Protection",
+      "image": "/images/mp5.jpg",
+      "source": "local"
+    },
+    {
+      "id": 12,
+      "category": "electronics",
+      "title": "Charging Cable",
+      "price": "$12.00",
+      "subtitle": "Fast Charging USB-C",
+      "image": "/images/mp6.jpg",
+      "source": "local"
+    },
+    {
+      "id": 13,
+      "category": "accessories",
+      "title": "Wireless Earbuds",
+      "price": "$89.00",
+      "subtitle": "Noise Cancelling Premium Audio",
+      "image": "/images/f3.jpg",
+      "source": "local"
+    },
+    {
+      "id": 14,
+      "category": "accessories",
+      "title": "Bluetooth Speaker",
+      "price": "$79.00",
+      "subtitle": "Portable High Quality Sound",
+      "image": "/images/f4.jpg",
+      "source": "local"
+    },
+    {
+      "id": 15,
+      "category": "accessories",
+      "title": "USB Hub",
+      "price": "$35.00",
+      "subtitle": "Multi-Port Connectivity",
+      "image": "/images/f5.jpg",
+      "source": "local"
+    },
+    {
+      "id": 16,
+      "category": "electronics",
+      "title": "Memory Card Reader",
+      "price": "$28.00",
+      "subtitle": "Fast Data Transfer",
+      "image": "/images/f6.jpg",
+      "source": "local"
+    },
+    {
+      "id": 17,
+      "category": "accessories",
+      "title": "Laptop Stand",
+      "price": "$49.00",
+      "subtitle": "Ergonomic Design",
+      "image": "/images/f7.jpg",
+      "source": "local"
+    },
+    {
+      "id": 18,
+      "category": "electronics",
+      "title": "Power Adapter",
+      "price": "$39.00",
+      "subtitle": "Universal Charging Solution",
+      "image": "/images/f9.jpg",
+      "source": "local"
+    },
+    {
+      "id": 19,
+      "category": "electronics",
+      "title": "External Hard Drive",
+      "price": "$79.00",
+      "subtitle": "1TB Storage Solution",
+      "image": "/images/e2.jpg",
+      "source": "local"
+    },
+    {
+      "id": 20,
+      "category": "electronics",
+      "title": "USB Flash Drive",
+      "price": "$25.00",
+      "subtitle": "256GB High Speed",
+      "image": "/images/e3.jpg",
+      "source": "local"
+    },
+    {
+      "id": 21,
+      "category": "electronics",
+      "title": "External SSD 1TB",
+      "price": "$89.99",
+      "subtitle": "Portable Storage Device",
+      "image": "/images/a15.jpg",
+      "source": "local"
+    },
+    {
+      "id": 22,
+      "category": "electronics",
+      "title": "USB Hub Multi-Port",
+      "price": "$34.99",
+      "subtitle": "7-Port USB 3.0 Hub",
+      "image": "/images/e6.jpg",
+      "source": "local"
+    },
+    {
+      "id": 23,
+      "category": "electronics",
+      "title": "Portable Monitor",
+      "price": "$199.99",
+      "subtitle": "15.6-inch USB-C Display",
+      "image": "/images/e7.jpg",
+      "source": "local"
+    }
+  ],
+  "aliexpress": [
+    {
+      "title": "iPhone 15 Pro",
+      "price": "$1,299.00",
+      "category": "Phones",
+      "subtitle": "Latest Apple Phone",
+      "image": "",
+      "source": "aliexpress",
+      "id": 4
+    }
+  ],
+  "amazon": [],
+  "external": []
+}
