@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import BottomNav from "./BottomNav";
 import html2pdf from "html2pdf.js";
 import { API_BASE, getOrder } from "../utils/api";
+import { resolveAssetPath } from "../utils/assetPath";
 
 export default function PaymentSuccess({ onNavigate, orderData = null }) {
   const [copied, setCopied] = useState(null);
@@ -681,7 +682,7 @@ export default function PaymentSuccess({ onNavigate, orderData = null }) {
                 {displayOrder.image && (
                   <div style={{ marginBottom: 16, textAlign: 'center' }}>
                     <img 
-                      src={displayOrder.image} 
+                      src={resolveAssetPath(displayOrder.image)} 
                       alt={displayOrder.customerName}
                       style={{ width: 80, height: 80, borderRadius: '50%', objectFit: 'cover', border: '2px solid #60A5FA' }}
                     />

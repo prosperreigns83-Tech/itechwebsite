@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getProducts } from "../utils/productStore";
 import BottomNav from "./BottomNav";
 import { getYouTubeThumbnail, isVideoFile } from "../utils/videoUtils";
+import { resolveAssetPath } from "../utils/assetPath";
 
 function extractYouTubeEmbed(url) {
   try {
@@ -99,7 +100,7 @@ export default function Videos({ activePage, onNavigate }){
               <div key={p.id} className="video-list-item" onClick={() => onNavigate('video', p.id)}>
                 <div className="video-thumb">
                     {p.image ? (
-                      <img src={p.image} alt={p.title} className="product-image" />
+                      <img src={resolveAssetPath(p.image)} alt={p.title} className="product-image" />
                     ) : getYouTubeThumbnail(p.videoUrl) ? (
                       <img src={getYouTubeThumbnail(p.videoUrl)} alt={p.title} className="product-image" />
                     ) : isVideoFile(p.videoUrl) ? (

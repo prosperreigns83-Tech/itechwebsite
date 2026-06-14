@@ -4,6 +4,7 @@ import { banUser, getUsers } from "../utils/userStore";
 import { getOrders, updateOrder } from "../utils/orderStore";
 import StatusBadge from "./StatusBadge";
 import { getYouTubeThumbnail, isVideoFile } from "../utils/videoUtils";
+import { resolveAssetPath } from "../utils/assetPath";
 
 const EMPTY_FORM = {
   id: null,
@@ -257,7 +258,7 @@ export default function AdminPanel({ onNavigate, onLogout }) {
                     {(product.image || product.videoUrl) && (
                       <div style={{ marginBottom: 14, borderRadius: 20, overflow: 'hidden', position: 'relative' }}>
                         {product.image ? (
-                          <img src={product.image} alt={product.title} style={{ width: '100%', height: 180, objectFit: 'cover', display: 'block', background: '#0b1220' }} />
+                          <img src={resolveAssetPath(product.image)} alt={product.title} style={{ width: '100%', height: 180, objectFit: 'cover', display: 'block', background: '#0b1220' }} />
                         ) : (product.videoUrl && getYouTubeThumbnail(product.videoUrl)) ? (
                           <div style={{ position: 'relative' }}>
                             <img src={getYouTubeThumbnail(product.videoUrl)} alt={product.title} style={{ width: '100%', height: 180, objectFit: 'cover', display: 'block', background: '#0b1220' }} />

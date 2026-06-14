@@ -1,4 +1,5 @@
 import React from 'react'
+import { resolveAssetPath } from '../utils/assetPath'
 
 export default function ProductCard({ title, subtitle, price, oldPrice, image, onClick, style }){
   return (
@@ -11,7 +12,7 @@ export default function ProductCard({ title, subtitle, price, oldPrice, image, o
         <div className="product-card-glow" />
       </div>
       <div className="relative w-full h-40 bg-white/5 rounded-xl overflow-hidden flex items-center justify-center border border-white/10">
-        <img src={image || '/images/p1.jpg'} alt={title} className="object-contain w-full h-full p-4" />
+        <img src={resolveAssetPath(image || '/images/p1.jpg')} alt={title} className="object-contain w-full h-full p-4" />
       </div>
       <div className="mt-4">
         <h3 className="text-sm font-semibold text-white truncate">{title}</h3>

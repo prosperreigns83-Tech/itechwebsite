@@ -1,4 +1,5 @@
 import React from 'react'
+import { resolveAssetPath } from '../utils/assetPath'
 
 const HERO_PRODUCTS = [
   // { title: 'AirPods Pro 2', price: '₦310,000', image: '' },
@@ -11,7 +12,7 @@ export default function HeroSection({ onGoShop }){
     <section
       className="relative overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("/images/hero-building.jpg")',
+        backgroundImage: `url(${resolveAssetPath('/images/hero-building.jpg')})`,
       }}
     >
       <div className="absolute inset-0 bg-slate-950/50" />
@@ -47,7 +48,7 @@ export default function HeroSection({ onGoShop }){
             {HERO_PRODUCTS.map((product) => (
               <div key={product.title} className="rounded-3xl border border-white/10 bg-white/5 p-4 shadow-[0_20px_60px_rgba(15,23,42,0.22)] backdrop-blur-sm">
                 <div className="overflow-hidden rounded-3xl bg-slate-950">
-                  <img src={product.image} alt={product.title} className="h-28 w-full object-cover" />
+                  <img src={resolveAssetPath(product.image)} alt={product.title} className="h-28 w-full object-cover" />
                 </div>
                 <div className="mt-4">
                   <div className="text-sm font-semibold text-white">{product.title}</div>

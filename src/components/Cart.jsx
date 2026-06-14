@@ -6,6 +6,7 @@ import { useNotifications } from "../context/NotificationsContext";
 import { getDefaultPaymentStatus, getEstimatedDeliveryDate } from "../utils/orderStatus";
 import { getWalletSummary, ensureWallet, debitWallet } from "../utils/walletStore";
 import { API_BASE } from "../utils/api";
+import { resolveAssetPath } from "../utils/assetPath";
 
 const PAYMENT_METHODS = [
   "Online Payment",
@@ -261,7 +262,7 @@ export default function Cart({ activePage, onNavigate, onToggleChat, storedAccou
 
         <div style={{ marginTop: 12, display: "flex", flexDirection: "column", gap: 12 }}>
           {cart.map((item, idx) => {
-            const itemImage = item.image || CART_GALLERY_IMAGES[idx % CART_GALLERY_IMAGES.length];
+            const itemImage = resolveAssetPath(item.image || CART_GALLERY_IMAGES[idx % CART_GALLERY_IMAGES.length]);
             return (
               <div key={item.id ?? idx} className="card" style={{ display: "flex", alignItems: "center", gap: 12 }}>
                 <div style={{ width: 64, height: 64, borderRadius: 14, overflow: 'hidden', background: '#0B1220' }}>
@@ -269,7 +270,7 @@ export default function Cart({ activePage, onNavigate, onToggleChat, storedAccou
                     src={itemImage}
                     alt={item.title || 'Cart item'}
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                    onError={(e) => { e.target.onerror = null; e.target.src = '/images/p1.jpg'; }}
+                    onError={(e) => { e.target.onerror = null; e.target.src = resolveAssetPath('/images/p1.jpg'); }}
                   />
                 </div>
                 <div style={{ flex: 1 }}>

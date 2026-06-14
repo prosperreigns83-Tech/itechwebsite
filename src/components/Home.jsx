@@ -6,6 +6,7 @@ import FlashTimer from "./FlashTimer";
 import ToggleMenu from "./ToggleMenu";
 import { fetchAllProducts, searchProducts } from "../utils/productApi";
 import { getPublicProducts } from "../utils/productStore";
+import { resolveAssetPath } from "../utils/assetPath";
 
 const SLIDES = [
   {
@@ -213,7 +214,7 @@ export default function Home({ activePage, onNavigate, onToggleChat }){
           </div>
           <div className="hero-visual">
             <div className="hero-image-frame">
-              <img src={SLIDES[index].image} alt={SLIDES[index].title} className="hero-image" />
+              <img src={resolveAssetPath(SLIDES[index].image)} alt={SLIDES[index].title} className="hero-image" />
             </div>
           </div>
           <div className="dots">
@@ -298,10 +299,10 @@ export default function Home({ activePage, onNavigate, onToggleChat }){
           <div className="promo-screen glass" onClick={(e) => e.stopPropagation()}>
             <div className="promo-screen-hero">
               <img
-                src={promoImage}
+                src={resolveAssetPath(promoImage)}
                 alt="Discount promotion"
                 className="promo-screen-image"
-                onError={(e) => { if (e.currentTarget.src !== PROMO_FALLBACK) e.currentTarget.src = PROMO_FALLBACK; }}
+                onError={(e) => { if (e.currentTarget.src !== resolveAssetPath(PROMO_FALLBACK)) e.currentTarget.src = resolveAssetPath(PROMO_FALLBACK); }}
               />
             </div>
             <div className="promo-screen-copy">

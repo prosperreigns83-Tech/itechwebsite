@@ -1,0 +1,1 @@
+const fs=require(" fs\); const s=fs.readFileSync(\dist/assets/index-CCr9d905.js\,\utf8\); const lines=s.split(\\\n\); for(let i=0;i<lines.length;i++){ const l=lines[i]; const idx=l.indexOf(\/images/\); if(idx!==-1){ console.log((i+1)+\: +l.slice(Math.max(0,idx-50), idx+70)); }}

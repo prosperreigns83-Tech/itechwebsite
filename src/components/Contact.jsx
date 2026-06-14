@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import BottomNav from "./BottomNav";
 import { FaFacebook, FaInstagram, FaTiktok, FaYoutube, FaXTwitter, FaTelegram } from "react-icons/fa6";
+import showroomImage from "../images/storeshowroom.png";
+import supportPersonImage from "../images/supportperson.jpeg";
 import "./Contact.css";
 
 const Contact = ({ onNavigate }) => {
@@ -151,7 +153,7 @@ const Contact = ({ onNavigate }) => {
           </p>
         </div>
         <div className="hero-graphic">
-          <img src="/src/images/storeshowroom.png" alt="ITECH Store Showroom" className="headset-icon" />
+          <img src={showroomImage} alt="ITECH Store Showroom" className="headset-icon" />
           <div className="glow-ring"></div>
         </div>
       </div>
@@ -385,7 +387,7 @@ const Contact = ({ onNavigate }) => {
       {/* Support Banner */}
       <div className="support-banner">
         <div className="support-content">
-          <img src="/src/images/supportperson.jpeg" alt="Support Team" className="support-image" />
+          <img src={supportPersonImage} alt="Support Team" className="support-image" />
           <div className="support-text">
             <h2>We're Always Here to Help</h2>
             <p>

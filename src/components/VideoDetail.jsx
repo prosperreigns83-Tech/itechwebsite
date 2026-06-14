@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getProducts } from "../utils/productStore";
 import BottomNav from "./BottomNav";
 import { getYouTubeEmbed, getYouTubeThumbnail, isVideoFile } from "../utils/videoUtils";
+import { resolveAssetPath } from "../utils/assetPath";
 
 export default function VideoDetail({ onNavigate, productId, activePage }){
   const [product, setProduct] = useState(null);
@@ -50,7 +51,7 @@ export default function VideoDetail({ onNavigate, productId, activePage }){
                   <div style={{position:'absolute',left:'50%',top:'50%',transform:'translate(-50%,-50%)',fontSize:28,color:'white'}}>▶</div>
                 </>
               ) : product.image ? (
-                <img src={product.image} alt={product.title} style={{width:'100%',height:'100%',objectFit:'cover'}} />
+                <img src={resolveAssetPath(product.image)} alt={product.title} style={{width:'100%',height:'100%',objectFit:'cover'}} />
               ) : (
                 <div style={{color:'#94A3B8'}}>No preview available</div>
               )}

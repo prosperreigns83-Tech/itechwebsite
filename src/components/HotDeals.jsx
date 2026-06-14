@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Clock } from 'lucide-react'
+import { resolveAssetPath } from '../utils/assetPath'
 
 export default function HotDeals() {
   const [deals] = useState([
@@ -49,7 +50,7 @@ export default function HotDeals() {
               </div>
 
               <div className="w-full h-40 overflow-hidden rounded-2xl bg-slate-950">
-                <img src={deal.image} alt={deal.name} className="w-full h-full object-cover" />
+                <img src={resolveAssetPath(deal.image)} alt={deal.name} className="w-full h-full object-cover" />
               </div>
 
               {/* Content */}

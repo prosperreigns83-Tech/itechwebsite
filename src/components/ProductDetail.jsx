@@ -1,6 +1,7 @@
 import React from "react";
 import { addToCart } from "../utils/cartStore";
 import { getYouTubeThumbnail, isVideoFile } from "../utils/videoUtils";
+import { resolveAssetPath } from "../utils/assetPath";
 
 export default function ProductDetail({ product, onClose }) {
   if (!product) return null;
@@ -10,7 +11,7 @@ export default function ProductDetail({ product, onClose }) {
         <div style={{display:'flex',gap:18}}>
           <div style={{flex:'0 0 48%',borderRadius:12,overflow:'hidden'}}>
             {product.image ? (
-              <img src={product.image} alt={product.title} style={{width:'100%',height:360,objectFit:'cover',borderRadius:12}} />
+              <img src={resolveAssetPath(product.image)} alt={product.title} style={{width:'100%',height:360,objectFit:'cover',borderRadius:12}} />
             ) : getYouTubeThumbnail(product.videoUrl) ? (
               <div style={{position:'relative'}}>
                 <img src={getYouTubeThumbnail(product.videoUrl)} alt={product.title} style={{width:'100%',height:360,objectFit:'cover',borderRadius:12}} />

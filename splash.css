@@ -13,7 +13,7 @@ body{
   font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   min-height:100vh;
   /* layered background: decorative gradients + image */
-  background-image: radial-gradient(circle at top, rgba(51,108,255,0.14), transparent 25%), linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 100%), url('public/images/splash-bg.png');
+  background-image: radial-gradient(circle at top, rgba(51,108,255,0.14), transparent 25%), linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 100%), url('images/splash-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
